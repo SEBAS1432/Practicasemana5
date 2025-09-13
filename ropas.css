@@ -1,0 +1,310 @@
+/* Estilos generales */
+/*todas las partes llevaran esto*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.black-bar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px; 
+    height: 12px; 
+}
+
+.header-content {
+    padding: 0 20px; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 10px; 
+}
+
+.logo-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.logo {
+    max-width: 100%; 
+    max-height: 100px; 
+}
+
+.navigation {
+    text-align: center; 
+    margin-top: 5px; 
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 575;
+  font-style: normal;
+    color: #000; 
+    font-size: 14.5px; 
+}
+
+.navigation li:hover {
+    text-decoration: underline;
+}
+.full-width-image {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+
+
+
+
+/*css de la ropa aca*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px;
+}
+
+.section-title {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.section-title h1 {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+    color: #000000;
+}
+
+/* Estilos para el contenedor de imágenes */
+.imagenes-juntas {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 10000px; 
+    margin: 0 auto;
+}
+
+/* Estilos para cada imagen dentro del contenedor */
+.imagenes-juntas img {
+    width: 20%; 
+    height: auto; 
+}
+
+/*Estilo para el indice de prendas*/
+.prendas-indice {
+    background-color: #000000;
+    color: #fff;
+    padding: 12px 0;
+    text-emphasis: center;
+    text-align: center;
+    border-radius: 10px;
+    }
+.prendas-navigation {
+    margin-bottom: 10px;
+}
+
+.prendas-navigation p {
+    margin: 0; 
+}
+
+.prendas-navigation a {
+    font-size: 16.5px;
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 590;
+  font-style: normal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.prendas-navigation a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.prendas-navigation a:hover {
+    color: #bb985e;
+}
+
+
+/* Estilos para la sección de Prendas */
+
+.prendas-section {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.prendas-section h2 {
+    font-size: 24px;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 900px;
+  font-style: normal;
+    color: #000000;
+    margin-bottom: 29px;
+   
+}
+.prendas-section p {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+    color: #000000;
+}
+
+/* Estilos para la cuadrícula de productos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 7.5px; 
+}
+
+.product-item {
+    border-radius: 5px;
+    padding: 2.5px;
+    text-align: right;
+    background-color: #ffffff;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -13.5px;
+}
+
+.product-details {
+    text-align: left;
+}
+
+.product-details h3 {
+    font-size: 13px;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 575;
+  font-style: normal;
+    color: #000000;
+    margin-bottom: -10.5px;
+}
+
+.product-details p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: italic;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.buy-btn {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #bb985e;
+}
+
+/* Cambio de imagen al pasar el cursor */
+.product-item:hover .product-image {
+    transform: scale(1.02); 
+}
+
+/* letras con fondo de imagen */
+.texto-fondo-imagen {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 230px;
+    color: #000000;
+    margin-bottom: 10px;
+    background: #0d0628 url('https://ecotourism-world.com/wp-content/uploads/2021/02/isaac-quesada-6xxxvB72qB0-unsplash-2.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}
+
+
+
+
+
+/*footer*/
+/*Esto llevaran todas las paginas*/
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-navigation {
+    margin-bottom: 10px;
+}
+
+.footer-navigation p {
+    margin: 0;
+}
+
+.footer-navigation a {
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 590;
+  font-style: normal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-navigation a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-navigation a:hover {
+    color: #bb985e;
+}
+
+.footer-info {
+    font-size: 12px;
+    line-height: 1.5; /* Ajustar el espacio entre líneas */
+}
